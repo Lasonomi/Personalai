@@ -72,6 +72,8 @@ Send a normal message; no game-style command syntax is needed for common P0 acti
 - `Ingatkan aku bayar listrik tanggal 15 jam 9`
 - `Hari ini aku ada apa?` — menampilkan event dan pengingat aktif hari itu.
 - `Ingat aku lebih suka belajar malam`
+- `/on` and `/off` (Telegram/Discord) or `hai budak` / `makasih budak` to switch Budak on or off.
+- `Cari informasi tentang ...` uses web search and lists sources by default. Add `pake AI` (for example, `pake AI untuk search ...`) only when you want AI to summarize the search results.
 
 When a date or time is missing, Budak asks instead of guessing. Daily agenda queries include both events and pending reminders, ordered by time. Destructive AI actions ask for confirmation. In Discord, use `/connect` to create a one-time code or `/connect <code>` to consume one. Telegram supports `/connect` in a private chat. To attach a bot account to an API-registered profile, authenticate first, call `POST /api/auth/connect-code`, then send the returned code using `/connect <code>` to the bot.
 
